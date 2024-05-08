@@ -75,10 +75,12 @@
   }
   
   .page-number-box {
+    display:block;
     padding: 10px;
     margin: 0 5px;
-    border: 1px solid #ccc;
-
+    color:black;
+    border: 1px solid white;
+    background-color: white;
   }
   
   .page-number {
@@ -88,9 +90,10 @@
   .left-arrow,
   .right-arrow {
     margin: 0 5px;
-    border: 1px solid #ccc;
-
+    border: 1px solid white;
     font-size: 20px;
+    background-color: white;
+    color:black;
   }
   
   /* Responsive adjustments */
